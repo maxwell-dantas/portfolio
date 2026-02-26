@@ -185,6 +185,7 @@
 @media (max-width: 400px) {
   .formacao {
     padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
   }
 
   .formacao-conteudo {
