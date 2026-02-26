@@ -79,7 +79,7 @@ main {
     justify-items: center;
   }
   .intro-descricao h1 {
-    justify-self: center;
+    justify-self: start;
   }
   .intro img {
     display: none;
