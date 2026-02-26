@@ -165,6 +165,10 @@
     grid-template-columns: 1fr;
   }
 
+  .formacao-conteudo {
+    gap: 3.125rem;
+  }
+
   .ano {
     position: initial;
   }
