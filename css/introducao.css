@@ -37,10 +37,12 @@ main {
 .intro-descricao p {
   margin: 0.625rem 0 2.8125rem 0;
   font-size: 1.375rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #b8b8b8;
 }
 
 .intro-descricao a {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   justify-self: start;
   padding: 0.625rem 1.2rem;
