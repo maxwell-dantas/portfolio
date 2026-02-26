@@ -87,4 +87,15 @@
   .projeto-ano {
     position: initial;
   }
+
+  .projeto .subtitulo {
+    justify-self: start;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .projeto-lista {
+    display: grid;
+    grid-row: 2;
+  }
 }
