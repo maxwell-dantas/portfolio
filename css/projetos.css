@@ -10,6 +10,8 @@
 .projeto-lista {
   display: grid;
   gap: 1.25rem;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .projeto-item a {
@@ -61,6 +63,7 @@
 .projeto .subtitulo {
   justify-self: end;
   text-align: right;
+  grid-column: 2;
 }
 
 @media (max-width: 1000px) {
