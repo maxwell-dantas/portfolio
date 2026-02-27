@@ -12,8 +12,25 @@
 .contatos-descricao {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   max-width: 25ch;
+  line-height: 1.3;
   font-size: 2rem;
   color: #f0f0f0;
+}
+
+.contatos-descricao span {
+  position: relative;
+}
+
+.contatos-descricao span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../img/hand-icon.svg");
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  right: -4rem;
+  top: 0rem;
 }
 
 .contatos-lista {
@@ -50,6 +67,12 @@
     font-size: 1.5rem;
   }
 
+  .contatos-descricao span::after {
+    width: 40px;
+    height: 40px;
+    right: -3rem;
+  }
+
   .contato-conteudo img {
     width: 42px;
     height: 42px;
@@ -66,6 +89,9 @@
 }
 
 @media (max-width: 500px) {
+  .contatos-lista {
+    justify-self: center;
+  }
   .contatos-link {
     flex-direction: column;
     align-items: start;
