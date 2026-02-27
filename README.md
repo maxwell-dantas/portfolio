@@ -38,4 +38,4 @@ _Outras habilidades apresentadas no portfólio:_
 2. **Formação:** Tecnólogo em ADS e cursos intensivos (Lógica de Programação, Git/GitHub).
 3. **Projetos:** Destaque para trabalhos práticos (Sistemas Digitais, IFRN Jobs).
 4. **Skills:** Minhas principais ferramentas e linguagens de trabalho.
-5. **Contatos:** Links para me encontrar no Instagram, GitHub e E-mail.
+5. **Contatos:** Links para me encontrar no Instagram, E-mail,  GitHub e LinkedIn.
