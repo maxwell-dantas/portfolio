@@ -36,7 +36,7 @@
   color: #b8b8b8;
 }
 
-.projeto-item h4 {
+.projeto-item h3 {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
@@ -71,7 +71,7 @@
     font-size: 0.75rem;
   }
 
-  .projeto-item h4 {
+  .projeto-item h3 {
     font-size: 1rem;
   }
 
