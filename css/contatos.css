@@ -1,0 +1,79 @@
+#contatos {
+  background-image: url("../img/contatos-bg.svg");
+}
+
+.contatos {
+  grid-template-columns: 1fr 1fr;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+  gap: 2.5rem;
+}
+
+.contatos-descricao {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  max-width: 25ch;
+  font-size: 2rem;
+  color: #f0f0f0;
+}
+
+.contatos-lista {
+  display: grid;
+  gap: 1.25rem;
+  word-break: break-all;
+  justify-content: end;
+}
+
+.contatos-link {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.625rem 1.25rem;
+  color: #ffffff;
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #292929;
+  border-radius: 0.25rem;
+}
+
+.contato-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+@media (max-width: 1200px) {
+  .contatos-link {
+    font-size: 1rem;
+  }
+  .contatos-descricao {
+    font-size: 1.5rem;
+  }
+
+  .contato-conteudo img {
+    width: 42px;
+    height: 42px;
+  }
+
+  @media (max-width: 900px) {
+    .contatos {
+      grid-template-columns: 1fr;
+    }
+    .contatos-link {
+      justify-content: start;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .contatos-link {
+    flex-direction: column;
+    align-items: start;
+  }
+  .contatos-link .seta {
+    align-self: end;
+  }
+  .contatos-link .email {
+    max-width: 17ch;
+  }
+}
